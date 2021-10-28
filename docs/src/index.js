@@ -6,10 +6,9 @@ import './styles.css';
 const App = () => {
   return (
     <div className="App">
-      <Typography component="h1" variant="h2">
-        Todos
-      </Typography>
-    </div>
+    <Typography component="h1" variant="h2">
+      Todos
+    </Typography> <TodoForm saveTodo={console.warn} /> </div>
   );
 };
 
