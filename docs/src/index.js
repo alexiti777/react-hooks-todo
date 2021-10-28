@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom';
 import React, { useState } from 'react';
 import Typography from '@material-ui/core/Typography';
+import TodoForm from './TodoForm';
 import './styles.css';
 
 const App = () => {
